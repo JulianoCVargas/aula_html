@@ -1,0 +1,13 @@
+table, th, td {
+    border: 2px outset black;
+    border-radius: 10px;
+}
+
+th {
+    background-color: white;
+    font-size: 30px;
+    
+}
+
+td { background-color: bisque;}
+

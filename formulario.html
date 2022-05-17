@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form>
+        <label for="nome">Primeiro Nome:</label>
+        <br>
+        <input type="text" name="nome">
+        <br>
+        <label for="Sobrenome">Segundo Nome</label>
+        <br>
+        <input type="text" name="Sobrenome">
+        <br>
+        <!--Radio Button-->
+        <h2> O que você achou do Site?</h2>
+
+        <input type="radio" name="opção" checked>Muito Bom
+        <input type="radio" name="opção">Regular
+        <input type="radio" name="opção">Lixo
+
+        <h2>Como está o clima hoje?</h2>
+        <input type="radio" name="Clima" id="Clima">Sol
+        <input type="radio" name="Clima" id="Clima">Chuva
+        <input type="radio" name="Clima" id="Clima" checked>Nevoeiro
+        <input type="radio" name="Clima" id="Clima">Granizo
+        <br>
+        <h2> Qual seção você mais gostou?</h2>
+        <select name="secao">
+            <option value="cartaz">Em cartaz</option>
+            <option value="animacao">Animação</option>
+            <option value="romance">Romance</option>
+          </select>
+          <label for="outra">Outra:</label>
+          <input type="text" name="outra">
+          <br>
+          <br>
+          <br>
+    
+          <textarea 
+                    placeholder="Digite um texto"
+                    name="areatexto"
+                    maxlength="180"                     
+                    cols="50"   
+                    rows="15"></textarea>
+
+
+          <br>
+          <br>
+          <table>
+
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" name="nome2"></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="mail" name="email"></td>
+            </tr>
+          </table>
+          <br>
+          <input type="checkbox">Hoje está chovendo?
+          <input type="checkbox"checked>Hoje sol?
+          <br>
+          <br>
+        <input type="button" name="botão" value="Botão">
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="reset" value="Limpar">
+        </tr>
+
+    </form>
+</body>
+</html>
