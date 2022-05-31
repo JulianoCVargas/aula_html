@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:gray;
+}
+
+.tituloPrincipal {
+    color:red;
+}
+#paragrafo1 {
+    
+}
+
+.paragrafo2 {
+    background-color: black;
+    color: #FFFF;
+}
+
+.teste  {
+    color: #FFF;
+    background-color: black;
+    width: 200px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    margin:5px auto;
+}
+
+#demo   {
+    color: red;
+}
